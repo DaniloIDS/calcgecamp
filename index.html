@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALC GECAMP</title>
+  <link rel="stylesheet" href="./style/config.css">
+</head>
+<body>
+  
+  <div class="logo">
+    <h1>CALC GECAMP</h1>
+    <h2>Calculadora do Gestor Campo</h2>
+  </div>
+
+  <form action="#" id="calcColheitabilidade">
+    <label for="TCH"  class="label">
+      <p class="indicador">TCH <span>(ton/ha)
+      </span></p>
+      <input type="number" name="tch" id="tch" class="inpt">
+    </label>
+
+    <label for="ESPACAMENTO" class="label">
+      <p class="indicador">ESPAÇAMENTO <span>(m)
+      </span></p>
+      <input type="number" name="espacamento" id="espacamento" class="inpt">
+    </label>
+
+    <label for="tiroMedio" class="label">
+      <p class="indicador">TIRO MÉDIO <span>(m)
+      </span></p>
+      <input type="number" name="tiroMedio" id="tiroMedio" class="inpt">
+    </label>
+
+    <label for="velocidadeColheita" class="label">
+      <p class="indicador">VELOCIDADE COLHEITA <span>(km/h)
+      </span></p>
+      <input type="number" name="velocidadeColheita" id="velocidadeColheita" class="inpt">
+    </label>
+
+    <label for="horasCorte" class="label">
+      <p class="indicador">HORAS CORTE <span>(hrs)
+      </span></p>
+      <input type="number" name="horasCorte" id="horasCorte" class="inpt">
+    </label>
+
+    <label for="tempoManobra" class="label">
+      <p class="indicador">TEMPO DE MANOBRA <span>(min)
+      </span></p>
+      <input type="number" name="tempoManobra" id="tempoManobra" class="inpt">
+      
+    </label>
+
+    <label for="nColhedoras" class="label">
+      <p class="indicador">Nº DE COLHEDORAS <span>(qtd)
+      </span></p>
+      <input type="number" name="nColhedoras" id="nColhedoras" class="inpt">
+    </label>
+
+    <input type="button" value="CALCULAR" id="calcular">
+
+    <div id="resultados">
+    </div>
+  </form>
+
+
+  <footer>Desenvolvido por @DaniloIDS</footer>
+
+<script src="./scripts/actionCalc.js"></script>
+</body>
+</html>
